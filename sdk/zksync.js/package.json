@@ -6,7 +6,7 @@
     "types": "build/index.d.ts",
     "dependencies": {
         "axios": "^0.21.2",
-        "websocket": "^1.0.30",
+        "websocket": "^1.0.35",
         "websocket-as-promised": "^1.1.0",
         "zksync-crypto": "^0.6.1"
     },
