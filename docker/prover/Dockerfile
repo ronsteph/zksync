@@ -4,7 +4,7 @@ WORKDIR /usr/src/zksync
 COPY . .
 RUN CARGO_HOME=./cargo cargo build --release
 
-FROM debian:bookworm-slim
+FROM debian:12.11-slim
 RUN apt-get update && apt-get install -y axel ca-certificates tini && rm -rf /var/lib/apt/lists/*
 # Docs of env variables used for this image
 # to test this locally just run
